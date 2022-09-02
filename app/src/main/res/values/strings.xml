@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FD Calculator</string>
+    <string name="amount_of_maturity">Amount Of Maturity</string>
+</resources>

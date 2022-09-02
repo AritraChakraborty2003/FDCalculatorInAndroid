@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#444444"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:id="@+id/amount"
+            android:textColor="@color/white"
+            android:hint="Enter Deposit Amount"
+            android:textSize="30dp"
+            android:layout_marginTop="25dp">
+        </EditText>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/rate"
+            android:inputType="numberDecimal"
+            android:layout_marginRight="15dp"
+            android:hint="Enter interest Rate"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/time"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:hint="Enter Time in Years"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp">
+        </EditText>
+
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#FEC20C"
+            android:text="Calculate"
+            android:id="@+id/calculate"
+            android:layout_marginTop="40dp">
+
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/mat_text"
+            android:inputType="numberDecimal"
+            android:text="Amount On Maturity:- "
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:inputType="numberDecimal"
+            android:text="Rs. 2580000"
+            android:id="@+id/maturity"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:inputType="numberDecimal"
+            android:text="Interest Earned:- "
+            android:textAlignment="center"
+            android:id="@+id/int_text"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginRight="15dp"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:inputType="numberDecimal"
+            android:text="508000"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:textSize="30dp"
+            android:id="@+id/interest"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+        </TextView>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#FEC20C"
+            android:text="Clear"
+            android:id="@+id/clear"
+            android:layout_marginTop="5dp">
+
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>
